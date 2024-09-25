@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CrashDection : MonoBehaviour
 {
@@ -9,7 +10,7 @@ public class CrashDection : MonoBehaviour
     {
         if (other.tag == "Ground")
         {
-            Debug.Log("Ouch! I Hit My Head");
+            SceneManager.LoadScene(0);
         }
     }
 }
