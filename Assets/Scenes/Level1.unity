@@ -12959,7 +12959,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a252da5f065461849a9957457cb93e6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loadDelay: 0.5
+  loadDelay: 1
   crashEffect: {fileID: 105194262}
   crashSFX: {fileID: 8300000, guid: bb79650ddcb0a6b42b3ecea525978bd0, type: 3}
 --- !u!114 &1775849623
